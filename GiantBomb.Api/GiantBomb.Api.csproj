@@ -11,7 +11,7 @@
     <Product>GiantBomb API (C#)</Product>
     <Description>Restful API wrapper for the GiantBomb games database public API</Description>
     <Copyright>Copyright © kayub 2015, Snowflake Authors 2019</Copyright>
-    <PackageLicenseUrl>https://github.com/SnowflakePowered/GiantBomb-CSharp/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageLicense>mit</PackageLicense>
     <PackageProjectUrl>https://github.com/SnowflakePowered/GiantBomb-CSharp</PackageProjectUrl>
     <PackageId>Snowflake.SupportLibraries.GiantBomb.Api</PackageId>
     <RepositoryUrl>https://github.com/SnowflakePowered/GiantBomb-CSharp</RepositoryUrl>
