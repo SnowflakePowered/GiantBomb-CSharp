@@ -13,7 +13,7 @@
     <Copyright>Copyright © kayub 2015, Snowflake Authors 2019</Copyright>
     <PackageLicenseUrl>https://github.com/SnowflakePowered/GiantBomb-CSharp/blob/master/LICENSE.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/SnowflakePowered/GiantBomb-CSharp</PackageProjectUrl>
-    <PackageId>GiantBomb.Api</PackageId>
+    <PackageId>Snowflake.SupportLibraries.GiantBomb.Api</PackageId>
     <RepositoryUrl>https://github.com/SnowflakePowered/GiantBomb-CSharp</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>giantbomb games database sdk gaming</PackageTags>
