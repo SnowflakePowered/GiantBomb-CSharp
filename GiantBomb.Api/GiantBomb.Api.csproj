@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.2</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>GiantBomb.Api</AssemblyName>
     <RootNamespace>GiantBomb.Api</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>2.4.1</Version>
-    <Authors>kayub</Authors>
+    <Version>2.5.0</Version>
+    <Authors>kayub, SnowflakePowered</Authors>
     <Company>kayub</Company>
     <Product>GiantBomb API (C#)</Product>
     <Description>Restful API wrapper for the GiantBomb games database public API</Description>
-    <Copyright>Copyright © kayub 2015</Copyright>
+    <Copyright>Copyright © kayub 2015, Snowflake Authors 2019</Copyright>
     <PackageLicenseUrl>https://github.com/kamranayub/GiantBomb-CSharp/blob/master/LICENSE.txt</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/kamranayub/GiantBomb-CSharp</PackageProjectUrl>
     <PackageId>GiantBomb.Api</PackageId>
@@ -26,7 +26,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FubarCoder.RestSharp.Portable.HttpClient" Version="4.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="RestSharp" Version="106.6.9" />
   </ItemGroup>
 
 </Project>
