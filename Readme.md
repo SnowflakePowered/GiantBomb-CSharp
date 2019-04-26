@@ -33,7 +33,7 @@ var video = await giantBomb.GetSingleResourceAsync<MyCustomVideoModel>("video", 
 ## Nuget
 Download and install the GiantBomb.Api Nuget package:
 
-	PM> Install-Package GiantBomb.Api
+	PM> Install-Package Snowflake.SupportLibraries.GiantBomb.Api
 
 ## Supported Platforms
 
