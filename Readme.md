@@ -4,7 +4,7 @@ GiantBomb C#
 [![Build status](https://ci.appveyor.com/api/projects/status/hh268dmpd08qfjqt?svg=true)](https://ci.appveyor.com/project/kamranayub/giantbomb-csharp)  
 [![Build Status](https://travis-ci.org/kamranayub/GiantBomb-CSharp.svg?branch=master)](https://travis-ci.org/kamranayub/GiantBomb-CSharp)
 
-This library aims to wrap the GiantBomb REST API in C# with strongly-typed models and is built on top of [RestSharp Portable](https://github.com/FubarDevelopment/restsharp.portable).
+This library aims to wrap the GiantBomb REST API in C# with strongly-typed models and is built on top of [RestSharp](http://restsharp.org/).
 
 It also helps make your life easier when dealing with searching because it recursively fetches your search results all at once to enable better sorting.
 
@@ -37,16 +37,8 @@ Download and install the GiantBomb.Api Nuget package:
 
 ## Supported Platforms
 
-This project targets [.NET Standard 1.2](https://docs.microsoft.com/en-us/dotnet/standard/library)
+This project targets [.NET Standard 2.0](https://docs.microsoft.com/en-us/dotnet/standard/library)
 
-- .NET Core 1.0+
-- .NET 4.5.1+
-- Mono 4.6+
-- Xamarin.iOS 10.0+
-- Xamarin.Android 7.0+
-- UWP 10.0+
-- Windows 8.1
-- Windows Phone 8.1
 
 ## Contributing
 Read about [contributing on the wiki](https://github.com/kamranayub/GiantBomb-CSharp/wiki). If you plan to contribute, you **must** read this.
